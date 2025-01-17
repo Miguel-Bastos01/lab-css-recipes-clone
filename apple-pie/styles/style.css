@@ -31,10 +31,7 @@ h1{
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  
-  
-  
+  color: white;  
 }
 
 #ApplePie img{ 
@@ -46,14 +43,47 @@ h1{
 h2{
   text-align: justify;
   padding: 5%;
+  margin: auto;
   }
 
 
-#RepInfo img{
- align-items: center;
- align-content: center;
- align-self: center;
-  
+hr{ 
+  align-items: center;
+  width: 90%;
+}
+
+
+h3{
+  font-weight: bold;
+  position: relative;
+  text-align: left;
+  left: 3%;
+  padding: 2%;
+}
+
+#Recipe li::before{
+  content: "- ";
+  color: black;
+}
+ #Recipe {
+  position: relative;
+  text-align: left;
+  left: 3%;
+  padding: 2%;
+  list-style-type: none;
+ }
+ 
+#Directions li::before{
+  content: attr(data-number) ") ";
+  color: black;
   
 }
-  
+
+ #Directions {
+  position: relative;
+  text-align: justify;
+  width: 90%;
+  left: 3%;
+  padding: 2%;
+  list-style-type: none;
+ }
