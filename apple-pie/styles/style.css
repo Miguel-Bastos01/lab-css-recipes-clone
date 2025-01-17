@@ -43,6 +43,7 @@ h1{
 h2{
   text-align: justify;
   padding: 5%;
+  font-size: large;
   margin: auto;
   }
 
@@ -79,11 +80,26 @@ h3{
   
 }
 
- #Directions {
+ #Directions li {
   position: relative;
   text-align: justify;
+  line-height: 1;
   width: 90%;
   left: 3%;
   padding: 2%;
   list-style-type: none;
+ }
+
+ #cooking {
+  height: 40%;
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+ }
+
+ #rep{
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
  }
